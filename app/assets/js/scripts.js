@@ -4,14 +4,22 @@
  * https://HosseinKarami.github.io/fastshell
  * @author Hossein Karami
  * @version 1.0.5
- * Copyright 2016. MIT licensed.
+ * Copyright 2018. MIT licensed.
  */
 (function ($, window, document, undefined) {
 
   'use strict';
 
   $(function () {
-    // FastShell
+    var $homeClick=$('#home-scroll');
+    var $page=$('html, body')
+    console.log('hi');
+
+    $homeClick.click(function(){
+      $page.animate({
+        scrollTop: $homeClick.offset().top
+    }, 800);
   });
+    });
 
 })(jQuery, window, document);
