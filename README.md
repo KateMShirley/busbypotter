@@ -1,10 +1,6 @@
-# FastShell
-[![Build Status](https://travis-ci.org/HosseinKarami/fastshell.png?branch=master)](https://travis-ci.org/HosseinKarami/fastshell)
+# BusbyPotter
 
-inspired by [FireShell](http://getfireshell.com)
-Fiercely quick front-end boilerplate and workflows.
-
-The opinionated FastShell framework. Built for the modern developer. For teams and the individual, encouraging a better workflow. JavaScript task running, build processes, autominification and file concatenation, wrapped with an enhanced HTML5 boilerplated framework.
+Built using FastShell Framework
 
 * Source: [github.com/HosseinKarami/fastshell](http://github.com/HosseinKarami/fastshell)
 * Documentation: [DOCS.md](https://github.com/HosseinKarami/fastshell/blob/master/DOCS.md)
@@ -15,7 +11,7 @@ The opinionated FastShell framework. Built for the modern developer. For teams a
 
 #### The MIT License (MIT)
 
-Copyright (c) FastShell
+Copyright (c) BusbyPotter
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
