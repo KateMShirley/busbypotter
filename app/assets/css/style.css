@@ -728,15 +728,16 @@ footer {
     width: 50%; }
   .form-group-full {
     width: 100%; }
-  .form-group input {
+  .form-group input, .form-group textarea {
     width: 100%;
     border-radius: 3px;
     border: 1px solid #E5E5E5;
     background-color: #f4f4f4;
-    padding: 10px 5px; }
-    .form-group input:active {
+    padding: 10px 5px;
+    resize: none; }
+    .form-group input:active, .form-group textarea:active {
       outline: none; }
-    .form-group input:focus {
+    .form-group input:focus, .form-group textarea:focus {
       outline: none; }
   .form-group h6 {
     text-transform: uppercase;

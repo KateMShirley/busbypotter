@@ -19,12 +19,13 @@
   &-full{
     width: 100%;
   }
-  input{
+  input, textarea{
     width: 100%;
     border-radius:3px;
     border:1px solid #E5E5E5;
     background-color: #f4f4f4;
     padding:10px 5px;
+    resize: none;
 
     &:active{
       outline:none;
