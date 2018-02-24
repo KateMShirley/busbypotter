@@ -28,6 +28,14 @@
     e.preventDefault();
     $(this).toggleClass('btn-services-active');
   })
+
+  $('#accordion').find('.accordion-toggle').click(function(){
+     //Expand or collapse this panel
+     $(this).next().slideToggle('ease-out');
+     //Hide the other panels
+     $(".accordion-content").not($(this).next()).slideUp('ease-out');
+
+   });
 });
 
 })(jQuery, window, document);

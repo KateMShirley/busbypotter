@@ -1,0 +1,19 @@
+.accordion-toggle {
+  cursor: pointer;
+  margin-top:40px;
+  transition:all .2s ease-in;
+
+  &:hover{
+    opacity:.5;
+  }
+}
+ .accordion-content {
+   display: none;
+ }
+ .accordion-content.default {
+   display: block;
+ }
+ .accordion-section{
+   border-bottom: 3px solid white;
+   padding-bottom:40px;
+ }
