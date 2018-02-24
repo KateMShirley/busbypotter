@@ -25,6 +25,13 @@
     border:1px solid #E5E5E5;
     background-color: #f4f4f4;
     padding:10px 5px;
+
+    &:active{
+      outline:none;
+    }
+    &:focus{
+      outline:none;
+    }
   }
 
 
@@ -49,6 +56,12 @@
     margin-right:10px;
     margin-bottom:10px;
     padding:5px 20px;
+    &:active{
+      outline:none;
+    }
+    &:focus{
+      outline:none;
+    }
 
     &:hover{
       background-color:#2384F5;

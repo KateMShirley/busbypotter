@@ -482,8 +482,7 @@ h4 {
 .content-form {
   background: linear-gradient(to bottom, #15DEB8, #4F9DF7);
   padding: 50px 110px 100px;
-  position: relative;
-  display: none; }
+  position: relative; }
   .content-form h5 {
     color: white;
     margin-bottom: 50px; }
@@ -718,6 +717,10 @@ footer {
     border: 1px solid #E5E5E5;
     background-color: #f4f4f4;
     padding: 10px 5px; }
+    .form-group input:active {
+      outline: none; }
+    .form-group input:focus {
+      outline: none; }
   .form-group h6 {
     text-transform: uppercase;
     font-size: 13px;
@@ -739,6 +742,10 @@ footer {
     margin-right: 10px;
     margin-bottom: 10px;
     padding: 5px 20px; }
+    .form-group .btn-services:active {
+      outline: none; }
+    .form-group .btn-services:focus {
+      outline: none; }
     .form-group .btn-services:hover {
       background-color: #2384F5;
       cursor: pointer;
